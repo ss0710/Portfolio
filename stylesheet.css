@@ -1,0 +1,425 @@
+#title{
+	background-image:url("bck.jpg");
+	background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-bottom: 1px solid rgba(0,0,0,0.4);
+}
+
+
+.text-typing {
+  margin:0px;
+  color: black;
+  white-space:nowrap;
+  overflow:hidden;
+  animation:typing 5s steps(22,end) forwards infinite,
+            blink 1s infinite;
+            animation-timing-function:ease-out;
+}
+@keyframes typing {
+  0% { width:0% }
+  100% { width:100% }
+}
+@keyframes blink {
+  0%,100% {
+    border-right:0px solid transparent;
+  }
+  50% {
+    border-right:0px solid #222;
+  }
+}
+
+.llk:hover{
+	transform: scale(1.3);
+}
+
+.bbt:hover{
+	transform: scale(1.1);
+}
+
+.nav-item{
+	padding: 0px 18px;
+}
+
+.nav-link{
+	font-size: 1.2rem;
+}
+
+.navbar-brand{
+	border-bottom: 2px solid black
+}
+
+body{
+	font-family: "Montserrat";
+}
+
+#title{
+	background-color: #66ffff;
+	color:white;
+}
+
+.container-fluid{
+	padding: 3% 15% 0%;
+}
+
+h1{
+	padding-top: 20%;
+ font-family: "Montserrat-Black";
+ text-align: center;
+}
+
+.navbar-brand{
+	font-size: 2.5rem;
+	font-weight: bold;
+}
+
+.download-button{
+	margin:5% 3% 5% 0;
+}
+
+h2{
+	font-family: "Montserrat-Bold";
+	font-size:3rem;
+}
+
+/* tittle image*/
+.title-image{
+	width: 100%;
+	right:130px;
+	height: 500px;
+}
+
+/*intro*/
+
+#intro{
+	background-image: url("stylish.jpg");
+	background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.introduction{
+	background-color: rgba(0,0,0,0.6);
+	padding: 3%;
+	text-align: center;
+}
+
+.intro-h{
+	padding:1%;
+	font-size: 2.5rem;
+	font-family:  Shrikhand;
+	letter-spacing: 2px;
+	color: white;
+}
+
+.introduction p{
+	padding:2%;
+	text-align: center;
+	font-family: Contrail One;
+	font-size: 1.7rem;
+	color:white;
+}
+
+
+/*qualification*/
+#qual{
+	background-color: white;
+	padding-bottom: 3%;
+}
+
+.qualification{
+	padding:2%;
+}
+
+.qual-h{
+    padding:1%;
+	font-size: 2.5rem;
+	font-family:  Shrikhand;
+	letter-spacing: 2px;
+	text-align: center;
+	color: black;
+}
+
+.college{
+	padding:3%;
+	margin-left: 20%;
+	margin-right: 20%;
+	border:1px solid black;
+	box-shadow: 5px 10px rgba(0,0,0,0.4);;
+	margin-bottom: 3%;
+	border-radius: 2rem;
+}
+
+.school{
+	background-color: rgba(0,0,0,0.1);
+	padding:3%;
+	margin-left: 20%;
+	margin-right: 20%;
+	border:1px solid black;
+	box-shadow: 5px 10px rgba(0,0,0,0.4);;
+	border-radius: 2rem;
+}
+
+.school h3,h4,h6{
+   color: black;
+   font-family: Contrail One;
+}
+
+
+.college h3,h4,h6{
+   color: black;
+   font-family: Contrail One;
+}
+
+.txt{
+	text-align: center;
+}
+
+#hi:hover{
+	transform: scale(1.8);
+}
+
+/*Skills*/
+#skills{
+	background-image: url("sp1.jpg");
+	  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: rgba(255,255,255,0.01);
+}
+
+.skl{
+	padding:3%;
+	background-color: rgba(0,0,0,0.4);
+}
+
+.skill-h{
+	padding:1%;
+	font-family:  Shrikhand;
+	text-align: center;
+	font-size:3rem;
+}
+
+.sk-ic{
+	padding:2%;
+	text-align: center;
+}
+
+.sk-ic:hover{
+	transform: scale(1.8);
+}
+/* TESTIMONUIAL SECTION*/
+
+.test-h{
+	padding-top:2%;
+}
+
+#testimonials{
+	background-color: lightgrey;
+	text-align:center;
+	color:white;
+	height:700px;
+}
+
+.testimonial-image{
+	width: 20%;
+	border-radius: 100%;
+	margin:20px;
+}
+
+#press{
+	text-align: center;
+	padding-bottom: 3%;
+}
+
+.logo{
+	width:15%;
+	margin: 20px 15px 20px;
+}
+
+.carousel-item{
+    padding:7% 14%;
+}
+
+/*pricing*/
+#pricing h2,p{
+   text-align: center;
+}
+
+#pricing{
+	padding:100px;	
+	background-image: url("stylish.jpg");
+	background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.pricing-column{
+	padding:3% 2%;
+}
+
+.card-header{
+	text-align: center;
+	font-weight: bold;
+	font-family: "Montserrat-Bold";
+}
+
+@media (max-width: 1028px){
+
+    #title{
+    	text-align: center;
+    }
+
+	.title-image{
+		position:static;
+		transform: rotate(0);
+	}
+
+	.college{
+	padding:3%;
+	margin-left: 5%;
+	margin-right: 5%;
+	border:1px solid black;
+	margin-bottom:3%;
+}
+
+
+.school{
+	padding:3%;
+	margin-left: 5%;
+	margin-right: 5%;
+	border:1px solid black;
+}
+
+.imgimg{
+	text-align: center;
+	padding-bottom: 3%;
+}
+
+.navbar{
+	background-color: white;
+	border-radius: 5px;
+	border: 2px solid black;
+}
+.navbar-brand{
+	border-bottom: 0px solid black
+}
+
+
+}
+
+/* last sections*/
+
+#cta{
+	text-align: center;
+	padding: 3% 5% 5%;
+}
+
+#cta h3{
+	margin-top:7px;
+	font-size: 3rem;
+	font-weight: bold;
+}
+#footer{
+	background-color: darkgrey;
+	padding:60px;
+	text-align: center;
+}
+
+#footer p{
+	color:black;
+}
+
+.ic{
+	color:black;
+	margin:0px 4px;
+	padding-bottom: 15px;
+}
+
+.ic:hover{
+	color:#ef8172;
+}
+
+.sid{
+	border-radius: 80%;
+	width:10%;
+	padding-bottom: 3px;
+}
+
+.photos{
+	padding: 2%;
+}
+
+.cp{
+	text-align: center;
+}
+
+.im:hover{
+  transform: scale(1.3);
+}
+
+#anime{
+	background-image: url(last.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+	text-align: center;
+}
+
+.anm{
+	background-color: rgba(255,255,255,0.7);
+	height: 450px;
+}
+
+.wbox{
+	background-color: white;
+	margin:0% 10% 3%;
+	box-shadow: 5px 0px 8px 10px #888888;
+	height: 300px;
+}
+
+.wbx{
+	padding-top: 3%;
+	text-align: center;
+}
+
+.accordion {
+  background-color: #eee;
+  color: black;
+  font-weight: bold;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+}
+
+.fa-plus{
+	float: right;
+}
+
+.fa-minus{
+	float: right;
+}
+
+.active, .accordion:hover {
+  background-color: #ccc; 
+}
+
+.panel {
+  padding: 0 18px;
+  display: none;
+  background-color: white;
+  overflow: hidden;
+}
+
+.rcd{
+	padding:3rem;
+}
