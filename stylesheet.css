@@ -6,6 +6,10 @@
   border-bottom: 1px solid rgba(0,0,0,0.4);
 }
 
+html{
+  scroll-behavior: smooth;
+}
+
 
 .text-typing {
   margin:0px;
